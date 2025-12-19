@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base : '/servey-app/',
+  base: '/saree/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
